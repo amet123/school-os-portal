@@ -153,3 +153,51 @@ export async function getStudentGroups(sid: string) {
   );
   return (res.message as {name: string; student_group_name: string}[]) ?? [];
 }
+
+/** Initiate a payment order for a student's outstanding balance. */
+export async function initiatePayment(
+  student: string,
+  company: string,
+  sid: string,
+  options?: {academic_year?: string; academic_term?: string},
+) {
+  const qs = new URLSearchParams({student, company});
+  if (options?.academic_year) qs.set('academic_year', options.academic_year);
+  if (options?.academic_term) qs.set('academic_term', options.academic_term);
+  const res = await callFrappe<unknown>(
+    `/api/method/school_os.api.payment_api.initiate_payment?${qs}`,
+    {method: 'POST'},
+    sid,
+  );
+  return res.message;
+}
+
+/** Poll the status of a Payment Order. */
+export async function getPaymentStatus(orderName: string, sid: string) {
+  const res = await callFrappe<unknown>(
+    `/api/method/school_os.api.payment_api.get_payment_status?order_name=${encodeURIComponent(orderName)}`,
+    {},
+    sid,
+  );
+  return res.message;
+}
+
+/** Simulate a successful payment (mock/dev gateway only). */
+export async function simulatePayment(orderName: string, sid: string) {
+  const res = await callFrappe<unknown>(
+    `/api/method/school_os.api.payment_api.simulate_payment?order_name=${encodeURIComponent(orderName)}`,
+    {method: 'POST'},
+    sid,
+  );
+  return res.message;
+}
+
+/** Get payment history for a student. */
+export async function getPaymentHistory(student: string, sid: string) {
+  const res = await callFrappe<unknown>(
+    `/api/method/school_os.api.payment_api.get_payment_history?student=${encodeURIComponent(student)}`,
+    {},
+    sid,
+  );
+  return res.message;
+}

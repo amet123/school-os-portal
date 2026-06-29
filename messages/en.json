@@ -31,7 +31,20 @@
     "library": "Library",
     "events": "Events",
     "exams": "Exams & Results",
-    "announcements": "Announcements"
+    "announcements": "Announcements",
+    "transport": "Transport",
+    "transport_route": "Bus Route",
+    "transport_stop": "Stop",
+    "transport_pickup": "Pickup",
+    "transport_drop": "Drop",
+    "no_transport": "No transport assigned.",
+    "pay_now": "Pay Now",
+    "payment_success": "Payment Successful",
+    "payment_failed": "Payment Failed",
+    "outstanding_bal": "Outstanding Balance",
+    "pay_outstanding": "Pay Outstanding Balance",
+    "payment_history": "Payment History",
+    "confirming": "Confirming payment…"
   },
   "teacher": {
     "dashboard": "Teacher Dashboard",
@@ -87,7 +100,8 @@
     "outstanding": "Outstanding",
     "no_balance": "No outstanding balance",
     "announcements": "Announcements",
-    "messages": "Messages"
+    "messages": "Messages",
+    "transport": "Transport"
   },
   "analytics": {
     "progress": "My Progress",

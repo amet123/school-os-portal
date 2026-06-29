@@ -31,7 +31,20 @@
     "library": "Library",
     "events": "Events",
     "exams": "Exams & Results",
-    "announcements": "Announcements"
+    "announcements": "Announcements",
+    "transport": "परिवहन",
+    "transport_route": "बस मार्ग",
+    "transport_stop": "स्टॉप",
+    "transport_pickup": "पिकअप",
+    "transport_drop": "ड्रॉप",
+    "no_transport": "परिवहन नहीं सौंपा गया।",
+    "pay_now": "अभी भुगतान करें",
+    "payment_success": "भुगतान सफल",
+    "payment_failed": "भुगतान विफल",
+    "outstanding_bal": "बकाया राशि",
+    "pay_outstanding": "बकाया राशि का भुगतान करें",
+    "payment_history": "भुगतान इतिहास",
+    "confirming": "भुगतान की पुष्टि हो रही है…"
   },
   "teacher": {
     "dashboard": "शिक्षक डैशबोर्ड",
@@ -87,7 +100,8 @@
     "outstanding": "Outstanding",
     "no_balance": "No outstanding balance",
     "announcements": "Announcements",
-    "messages": "Messages"
+    "messages": "Messages",
+    "transport": "परिवहन"
   },
   "analytics": {
     "progress": "My Progress",

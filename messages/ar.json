@@ -31,7 +31,20 @@
     "library": "Library",
     "events": "Events",
     "exams": "Exams & Results",
-    "announcements": "Announcements"
+    "announcements": "Announcements",
+    "transport": "النقل",
+    "transport_route": "خط الحافلة",
+    "transport_stop": "محطة",
+    "transport_pickup": "الاستقلال",
+    "transport_drop": "الإنزال",
+    "no_transport": "لم يتم تعيين وسيلة نقل.",
+    "pay_now": "ادفع الآن",
+    "payment_success": "تم الدفع بنجاح",
+    "payment_failed": "فشل الدفع",
+    "outstanding_bal": "الرصيد المستحق",
+    "pay_outstanding": "دفع الرصيد المستحق",
+    "payment_history": "سجل المدفوعات",
+    "confirming": "جارٍ تأكيد الدفع…"
   },
   "teacher": {
     "dashboard": "لوحة المعلم",
@@ -87,7 +100,8 @@
     "outstanding": "Outstanding",
     "no_balance": "No outstanding balance",
     "announcements": "Announcements",
-    "messages": "Messages"
+    "messages": "Messages",
+    "transport": "النقل"
   },
   "analytics": {
     "progress": "My Progress",

@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "student": "بوابة الطالب",
+    "teacher": "بوابة المعلم",
+    "logout": "تسجيل الخروج",
+    "home": "الرئيسية"
+  },
+  "login": {
+    "title": "School OS",
+    "subtitle": "سجّل الدخول إلى بوابتك",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "submit": "تسجيل الدخول",
+    "error": "بيانات اعتماد غير صالحة. يرجى المحاولة مرة أخرى.",
+    "loading": "جارٍ تسجيل الدخول…"
+  },
+  "student": {
+    "dashboard": "لوحة التحكم",
+    "welcome": "مرحبًا بعودتك، {name}!",
+    "attendance": "الحضور",
+    "fees": "كشف الرسوم",
+    "pct_label": "نسبة الحضور",
+    "balance": "الرصيد المستحق",
+    "no_records": "لا توجد سجلات.",
+    "present": "حاضر",
+    "absent": "غائب",
+    "late": "متأخر",
+    "progress": "Progress",
+    "timetable": "Timetable",
+    "homework": "Homework",
+    "library": "Library",
+    "events": "Events"
+  },
+  "teacher": {
+    "dashboard": "لوحة المعلم",
+    "mark_attend": "تسجيل الحضور",
+    "roster": "قائمة الطلاب",
+    "select_group": "اختر مجموعة الطلاب",
+    "select_date": "التاريخ",
+    "submit": "إرسال",
+    "saved": "تم حفظ الحضور!",
+    "present": "حاضر",
+    "absent": "غائب",
+    "late": "متأخر",
+    "analytics": "Analytics",
+    "timetable": "Timetable",
+    "homework": "Homework",
+    "library": "Library"
+  },
+  "common": {
+    "loading": "جارٍ التحميل…",
+    "error": "حدث خطأ ما.",
+    "back": "رجوع"
+  },
+  "report_cards": {
+    "title": "بطاقات التقارير",
+    "no_cards": "لا توجد بطاقات تقارير منشورة بعد.",
+    "view": "عرض",
+    "download_pdf": "تحميل PDF",
+    "published": "منشور",
+    "generate": "إنشاء",
+    "publish": "نشر",
+    "overall_grade": "الدرجة الإجمالية",
+    "percentage": "النسبة المئوية",
+    "marks": "الدرجات",
+    "subject": "المادة",
+    "grade": "التقدير",
+    "grade_points": "نقاط التقدير",
+    "remarks": "ملاحظات",
+    "teacher_remarks": "ملاحظات المعلم",
+    "attendance": "الحضور"
+  },
+  "parent": {
+    "portal": "Parent Portal",
+    "welcome": "Welcome, {name}!",
+    "children": "Your Children",
+    "no_children": "No students linked.",
+    "attendance": "Attendance",
+    "report_card": "Latest Report Card",
+    "fee_balance": "Fee Balance",
+    "no_rc": "No published report card yet.",
+    "outstanding": "Outstanding",
+    "no_balance": "No outstanding balance"
+  },
+  "analytics": {
+    "progress": "My Progress",
+    "class": "Class Analytics",
+    "no_data": "No data yet.",
+    "class_average": "Class Average",
+    "highest": "Highest",
+    "lowest": "Lowest",
+    "pass_rate": "Pass Rate",
+    "subject_breakdown": "Subject Average",
+    "distribution": "Grade Distribution"
+  }
+}

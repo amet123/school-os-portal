@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "student": "Student Portal",
+    "teacher": "Teacher Portal",
+    "logout": "Logout",
+    "home": "Home"
+  },
+  "login": {
+    "title": "School OS",
+    "subtitle": "Sign in to your portal",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign In",
+    "error": "Invalid credentials. Please try again.",
+    "loading": "Signing in…"
+  },
+  "student": {
+    "dashboard": "My Dashboard",
+    "welcome": "Welcome back, {name}!",
+    "attendance": "Attendance",
+    "fees": "Fee Statement",
+    "pct_label": "Attendance %",
+    "balance": "Outstanding Balance",
+    "no_records": "No records found.",
+    "present": "Present",
+    "absent": "Absent",
+    "late": "Late",
+    "progress": "Progress",
+    "timetable": "Timetable",
+    "homework": "Homework",
+    "library": "Library",
+    "events": "Events"
+  },
+  "teacher": {
+    "dashboard": "Teacher Dashboard",
+    "mark_attend": "Mark Attendance",
+    "roster": "Class Roster",
+    "select_group": "Select student group",
+    "select_date": "Date",
+    "submit": "Submit",
+    "saved": "Attendance saved!",
+    "present": "Present",
+    "absent": "Absent",
+    "late": "Late",
+    "analytics": "Analytics",
+    "timetable": "Timetable",
+    "homework": "Homework",
+    "library": "Library"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong.",
+    "back": "Back"
+  },
+  "report_cards": {
+    "title": "Report Cards",
+    "no_cards": "No published report cards yet.",
+    "view": "View",
+    "download_pdf": "Download PDF",
+    "published": "Published",
+    "generate": "Generate",
+    "publish": "Publish",
+    "overall_grade": "Overall Grade",
+    "percentage": "Percentage",
+    "marks": "Marks",
+    "subject": "Subject",
+    "grade": "Grade",
+    "grade_points": "Grade Points",
+    "remarks": "Remarks",
+    "teacher_remarks": "Teacher Remarks",
+    "attendance": "Attendance"
+  },
+  "parent": {
+    "portal": "Parent Portal",
+    "welcome": "Welcome, {name}!",
+    "children": "Your Children",
+    "no_children": "No students linked.",
+    "attendance": "Attendance",
+    "report_card": "Latest Report Card",
+    "fee_balance": "Fee Balance",
+    "no_rc": "No published report card yet.",
+    "outstanding": "Outstanding",
+    "no_balance": "No outstanding balance"
+  },
+  "analytics": {
+    "progress": "My Progress",
+    "class": "Class Analytics",
+    "no_data": "No data yet.",
+    "class_average": "Class Average",
+    "highest": "Highest",
+    "lowest": "Lowest",
+    "pass_rate": "Pass Rate",
+    "subject_breakdown": "Subject Average",
+    "distribution": "Grade Distribution"
+  }
+}

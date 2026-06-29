@@ -2,7 +2,7 @@ import createMiddleware from 'next-intl/middleware';
 import {NextRequest, NextResponse} from 'next/server';
 
 const LOCALES  = ['en', 'hi', 'ar'] as const;
-const PROTECTED = ['/student', '/teacher', '/parent'];
+const PROTECTED = ['/student', '/teacher', '/parent', '/admin'];
 
 const intlMiddleware = createMiddleware({
   locales:       LOCALES,

@@ -29,7 +29,8 @@
     "timetable": "Timetable",
     "homework": "Homework",
     "library": "Library",
-    "events": "Events"
+    "events": "Events",
+    "exams": "Exams & Results"
   },
   "teacher": {
     "dashboard": "لوحة المعلم",
@@ -45,7 +46,8 @@
     "analytics": "Analytics",
     "timetable": "Timetable",
     "homework": "Homework",
-    "library": "Library"
+    "library": "Library",
+    "exams": "Exams"
   },
   "common": {
     "loading": "جارٍ التحميل…",
@@ -92,5 +94,9 @@
     "pass_rate": "Pass Rate",
     "subject_breakdown": "Subject Average",
     "distribution": "Grade Distribution"
+  },
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "stats": "School Stats"
   }
 }

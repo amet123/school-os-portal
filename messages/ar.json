@@ -30,7 +30,8 @@
     "homework": "Homework",
     "library": "Library",
     "events": "Events",
-    "exams": "Exams & Results"
+    "exams": "Exams & Results",
+    "announcements": "Announcements"
   },
   "teacher": {
     "dashboard": "لوحة المعلم",
@@ -47,7 +48,9 @@
     "timetable": "Timetable",
     "homework": "Homework",
     "library": "Library",
-    "exams": "Exams"
+    "exams": "Exams",
+    "announcements": "Announcements",
+    "messages": "Parent Messages"
   },
   "common": {
     "loading": "جارٍ التحميل…",
@@ -82,7 +85,9 @@
     "fee_balance": "Fee Balance",
     "no_rc": "No published report card yet.",
     "outstanding": "Outstanding",
-    "no_balance": "No outstanding balance"
+    "no_balance": "No outstanding balance",
+    "announcements": "Announcements",
+    "messages": "Messages"
   },
   "analytics": {
     "progress": "My Progress",

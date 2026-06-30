@@ -15,6 +15,8 @@ const NAV = [
   {href: 'library',       icon: '📚', label: 'Library',         color: 'hover:text-amber-600'},
   {href: 'announcements', icon: '📢', label: 'Announcements',   color: 'hover:text-sky-600'},
   {href: 'messages',      icon: '💬', label: 'Parent Messages', color: 'hover:text-emerald-600'},
+  {href: 'payslip',       icon: '💰', label: 'My Payslip',      color: 'hover:text-lime-600'},
+  {href: 'leave',         icon: '🏖️', label: 'My Leaves',       color: 'hover:text-cyan-600'},
 ] as const;
 
 export default function TeacherDashboard() {

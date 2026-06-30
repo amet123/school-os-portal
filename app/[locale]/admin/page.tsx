@@ -125,7 +125,7 @@ export default function AdminDashboard() {
 
             {/* Fee trend bars */}
             {feeTrend.length > 0 && (
-              <div className="bg-white rounded-xl border border-slate-200 p-5">
+              <div className="bg-white rounded-xl border border-slate-200 p-5 mb-6">
                 <h2 className="font-semibold text-slate-700 text-sm mb-4">Monthly Fee Collection</h2>
                 <div className="flex items-end gap-2 h-24">
                   {feeTrend.map(m => (
@@ -138,6 +138,24 @@ export default function AdminDashboard() {
                 </div>
               </div>
             )}
+
+            {/* Quick Actions */}
+            <div className="mb-6">
+              <h2 className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-3">Quick Actions</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                {[
+                  {href: 'leaves',      icon: '🏖️', label: 'Staff Leaves',    color: 'hover:border-cyan-400 hover:text-cyan-700'},
+                  {href: 'admissions',  icon: '🎓', label: 'Admissions',       color: 'hover:border-violet-400 hover:text-violet-700'},
+                  {href: 'payments',    icon: '💳', label: 'Payments',         color: 'hover:border-green-400 hover:text-green-700'},
+                ].map(({href, icon, label, color}) => (
+                  <Link key={href} href={`/${locale}/admin/${href}`}
+                    className={`bg-white rounded-xl border border-slate-200 p-4 flex items-center gap-3 transition ${color} group`}>
+                    <span className="text-2xl">{icon}</span>
+                    <span className="text-sm font-semibold text-slate-700 group-hover:inherit">{label}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
           </>
         )}
       </main>

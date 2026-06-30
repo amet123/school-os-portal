@@ -144,6 +144,7 @@ export default function AdminDashboard() {
               <h2 className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-3">Quick Actions</h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 {[
+                  {href: 'health',      icon: '⚕️', label: 'Health',       color: 'hover:border-teal-400 hover:text-teal-700'},
                   {href: 'discipline', icon: '🚨', label: 'Discipline',   color: 'hover:border-rose-400 hover:text-rose-700'},
                   {href: 'ptm',        icon: '📅', label: 'PTM',           color: 'hover:border-teal-400 hover:text-teal-700'},
                   {href: 'leaves',      icon: '🏖️', label: 'Staff Leaves',    color: 'hover:border-cyan-400 hover:text-cyan-700'},

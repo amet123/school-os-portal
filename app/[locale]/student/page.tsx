@@ -208,7 +208,8 @@ export default function StudentHome() {
           {[
             {href:'timetable', icon:'📅', label:'Timetable'},
             {href:'report-card', icon:'📊', label:'Report Card'},
-            {href:'attendance', icon:'✅', label:'Attendance'},
+            {href:'ai-tutor',   icon:'🤖', label:'AI Tutor'},
+                  {href:'attendance', icon:'✅', label:'Attendance'},
             {href:'library', icon:'📚', label:'Library'},
             {href:'exams', icon:'📝', label:'Exams'},
             {href:'certificates', icon:'🎓', label:'Certificates'},

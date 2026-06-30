@@ -72,6 +72,7 @@ npm run dev -- --port 3005
 | `/teacher/payslip` | Salary payslips |
 | `/teacher/ptm` | PTM appointments |
 | `/teacher/discipline` | Log + track incidents |
+| `/teacher/directory` | **Staff Directory** — browse staff, today's schedule, subjects |
 | `/teacher/calendar` | School calendar |
 
 ### Admin (`/[locale]/admin/`)
@@ -87,6 +88,7 @@ npm run dev -- --port 3005
 | `/admin/admissions` | Admissions Kanban |
 | `/admin/leaves` | Staff leave board |
 | `/admin/concessions` | Fee concessions |
+| `/admin/students` | **Student 360 Lookup** — health alerts, guardians, attendance, results, open incidents, transport |
 
 ## BFF Architecture
 

@@ -32,7 +32,10 @@ export default function TeacherLeave() {
     setLoading(true);
     fetch('/api/teacher/leave')
       .then(r => r.json())
-      .then(d => { setData(d); setLoading(false); })
+      .then(d => {
+        setData({balance: d.balance ?? [], applications: d.applications ?? []});
+        setLoading(false);
+      })
       .catch(() => setLoading(false));
   };
 

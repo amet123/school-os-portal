@@ -21,6 +21,7 @@ const NAV = [
   {href: 'library',      icon: '📚', label: 'library',        color: 'hover:text-amber-600'},
   {href: 'events',       icon: '🎉', label: 'events',         color: 'hover:text-pink-600'},
   {href: 'announcements',icon: '📢', label: 'announcements',  color: 'hover:text-sky-600'},
+  {href: 'scholarships', icon: '🎓', label: 'Scholarships',   color: 'hover:text-violet-600'},
   {href: 'transport',    icon: '🚌', label: 'transport',      color: 'hover:text-lime-600'},
 ] as const;
 

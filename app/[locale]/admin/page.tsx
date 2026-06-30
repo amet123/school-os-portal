@@ -145,6 +145,7 @@ export default function AdminDashboard() {
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 {[
                   {href: 'leaves',      icon: '🏖️', label: 'Staff Leaves',    color: 'hover:border-cyan-400 hover:text-cyan-700'},
+                  {href: 'concessions', icon: '🎓', label: 'Concessions',  color: 'hover:border-violet-400 hover:text-violet-700'},
                   {href: 'admissions',  icon: '🎓', label: 'Admissions',       color: 'hover:border-violet-400 hover:text-violet-700'},
                   {href: 'payments',    icon: '💳', label: 'Payments',         color: 'hover:border-green-400 hover:text-green-700'},
                 ].map(({href, icon, label, color}) => (

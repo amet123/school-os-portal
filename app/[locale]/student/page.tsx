@@ -18,6 +18,7 @@ const NAV = [
   {href: 'exams',        icon: '📊', label: 'exams',          color: 'hover:text-red-600'},
   {href: 'report-cards', icon: '📋', label: 'report_cards',   color: 'hover:text-violet-600'},
   {href: 'progress',     icon: '📈', label: 'progress',       color: 'hover:text-teal-600'},
+  {href: 'calendar', icon: '📅', label: 'Calendar',     color: 'hover:text-violet-600'},
   {href: 'library',      icon: '📚', label: 'library',        color: 'hover:text-amber-600'},
   {href: 'events',       icon: '🎉', label: 'events',         color: 'hover:text-pink-600'},
   {href: 'announcements',icon: '📢', label: 'announcements',  color: 'hover:text-sky-600'},

@@ -18,6 +18,7 @@ const NAV = [
   {href: 'payslip',       icon: '💰', label: 'My Payslip',      color: 'hover:text-lime-600'},
   {href: 'discipline', icon: '🚨', label: 'Incidents',    color: 'hover:text-rose-600'},
   {href: 'ptm',   icon: '📅', label: 'PTM Schedule', color: 'hover:text-teal-600'},
+  {href: 'calendar', icon: '📅', label: 'Calendar',     color: 'hover:text-violet-600'},
   {href: 'leave',         icon: '🏖️', label: 'My Leaves',       color: 'hover:text-cyan-600'},
 ] as const;
 

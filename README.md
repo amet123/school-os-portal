@@ -89,6 +89,7 @@ npm run dev -- --port 3005
 | `/admin/leaves` | Staff leave board |
 | `/admin/concessions` | Fee concessions |
 | `/admin/students` | **Student 360 Lookup** — health alerts, guardians, attendance, results, open incidents, transport |
+| `/admin/analytics` | **School Analytics** — 7-tab dashboard (overview, enrolment, attendance, fees, exams, admissions, discipline) |
 
 ## BFF Architecture
 

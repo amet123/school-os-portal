@@ -16,6 +16,7 @@ const NAV = [
   {href: 'announcements', icon: '📢', label: 'Announcements',   color: 'hover:text-sky-600'},
   {href: 'messages',      icon: '💬', label: 'Parent Messages', color: 'hover:text-emerald-600'},
   {href: 'payslip',       icon: '💰', label: 'My Payslip',      color: 'hover:text-lime-600'},
+  {href: 'discipline', icon: '🚨', label: 'Incidents',    color: 'hover:text-rose-600'},
   {href: 'ptm',   icon: '📅', label: 'PTM Schedule', color: 'hover:text-teal-600'},
   {href: 'leave',         icon: '🏖️', label: 'My Leaves',       color: 'hover:text-cyan-600'},
 ] as const;

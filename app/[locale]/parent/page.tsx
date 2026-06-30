@@ -11,6 +11,7 @@ interface Session { role: string; display_name: string; children?: Child[]; }
 const QUICK_LINKS = [
   {href: 'announcements', icon: '📢', label: 'Announcements', color: 'hover:text-sky-600'},
   {href: 'messages',      icon: '💬', label: 'Messages',      color: 'hover:text-violet-600'},
+  {href: 'discipline', icon: '🚨', label: 'Discipline',   color: 'hover:text-rose-600'},
   {href: 'ptm',       icon: '📅', label: 'PT Meetings',   color: 'hover:text-teal-600'},
   {href: 'transport',     icon: '🚌', label: 'Transport',     color: 'hover:text-lime-600'},
 ] as const;
